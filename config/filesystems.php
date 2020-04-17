@@ -82,4 +82,10 @@ return [
         public_path('storage') => storage_path('app/public'),
     ],
 
+    // used for Backpack/LogManager
+    'storage' => [
+    'driver' => 'local',
+    'root'   => storage_path(),
+],
+
 ];
